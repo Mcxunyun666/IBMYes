@@ -37,7 +37,7 @@ jobs:
         ./IBM_Cloud_CLI/ibmcloud cf install
     - name: Restart IBM Cloud
       env:
-        IBM_APP_NAME: Mcxunyun666
+        IBM_APP_NAME: mcxunyun666
       run: |
-        ./IBM_Cloud_CLI/ibmcloud cf restart Mcxunyun666
+        ./IBM_Cloud_CLI/ibmcloud cf restart mcxunyun666
 
