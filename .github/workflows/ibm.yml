@@ -31,6 +31,5 @@ jobs:
         ./IBM_Cloud_CLI/ibmcloud target -g 15413b901fa44d418e0803ee464a65a2
         ./IBM_Cloud_CLI/ibmcloud target --cf
         ./IBM_Cloud_CLI/ibmcloud cf install
-        ./IBM_Cloud_CLI/ibmcloud target -g 15413b901fa44d418e0803ee464a65a2
-        ./IBM_Cloud_CLI/ibmcloud target --cf && ./IBM_Cloud_CLI/ibmcloud cf restart mcxunyun666
+        ./IBM_Cloud_CLI/ibmcloud target -g 15413b901fa44d418e0803ee464a65a2 && ./IBM_Cloud_CLI/ibmcloud target --cf && ./IBM_Cloud_CLI/ibmcloud cf restart mcxunyun666
 
