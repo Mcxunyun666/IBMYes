@@ -39,5 +39,5 @@ jobs:
       env:
         IBM_APP_NAME: Mcxunyun666
       run: |
-        ./IBM_Cloud_CLI/ibmcloud cf restart "$IBM_APP_NAME"
+        ./IBM_Cloud_CLI/ibmcloud cf restart Mcxunyun666
 
