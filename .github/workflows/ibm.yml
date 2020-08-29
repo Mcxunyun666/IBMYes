@@ -30,14 +30,10 @@ jobs:
         EOF
     - name: Target IBM Cloud
       env:
-        RESOURSE_ID: ${{ secrets.RESOURSE_ID }}
+        RESOURSE_ID: 15413b901fa44d418e0803ee464a65a2
       run: |
-        ./IBM_Cloud_CLI/ibmcloud target -g "$RESOURSE_ID"
+        ./IBM_Cloud_CLI/ibmcloud target -g 15413b901fa44d418e0803ee464a65a2
         ./IBM_Cloud_CLI/ibmcloud target --cf
         ./IBM_Cloud_CLI/ibmcloud cf install
-    - name: Restart IBM Cloud
-      env:
-        IBM_APP_NAME: mcxunyun666
-      run: |
         ./IBM_Cloud_CLI/ibmcloud cf restart mcxunyun666
 
